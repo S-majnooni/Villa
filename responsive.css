@@ -1,0 +1,238 @@
+@media screen and (max-width:400px){
+    .relationship{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    header{
+        height: 670px;
+        width: 99.9%;
+        background-image: url("images/banner-01.jpg");
+        background-size: 250% 100%;
+        background-position:bottom;
+    }
+    .header_image{
+        /* width: 100%; */
+        height: 660px;
+        display: none;
+    }
+    .information_header{
+        padding-top: 30%;
+        width: 80%;
+    }
+    .dotes{
+        margin-top: 50%;
+    }
+    .move_button{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: -14%;
+        margin-top: -40%;
+        position: relative;
+        cursor: pointer;
+    }
+    .moves{
+        width: 35px;
+        height: 35px;
+        border-radius: 100%;
+        background-color: rgba(211, 211, 211, 0.393);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*  */
+
+    .main_information_us{
+        display: block;
+        padding: 28% 5%;
+        box-sizing: border-box;
+    }
+    .information_us_products{
+        /* padding-bottom: 110%; */
+        height: 940px;
+        margin-left: -5%;
+    }
+    .image_caption{
+        display: block;
+    }
+    .caption_main_information_us{
+        margin-top: 30%;
+        margin-left: -16%;
+    }
+    .caption_for_information_us{
+        width: 105%;
+    }
+    .skill_us{
+        margin-left: 0%;
+        width: 100%;
+    }
+    .skill_caption{
+        padding-right: 20%;
+    }
+
+    /*  */
+
+
+    .main_information_movie{
+        height: 500px;
+        background-image: url("images/video-bg.jpg");
+        background-size: 200% 100%;
+        background-position: center;
+    }
+    .main_information_movie img{
+        display: none;
+    }
+    .title_movie img{
+        display: block;
+        width: 90%;
+        height: 55%;
+        margin-top: 50%;
+    }
+    .play_button{
+        height: 75px;
+        width: 75px;
+        background-color: rgba(255, 68, 0, 0.512);
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-top: 32%;
+    }
+    .play_button_frame{
+        width: 47px;
+        height: 47px;
+        border-radius: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*  */
+    .main_notice{
+        margin-bottom: 15%;
+        width: 99%;
+    }
+    .notice_card{
+        margin-top: 5%;
+    }
+    .notices{
+        padding: 0% 10%;
+        box-sizing: border-box;
+    }
+
+    /*  */
+
+    .main_details{
+        height: 1400px;
+        padding: 0% 3%;
+        width: 99.9%;
+    }
+    .title_link_detail{
+        display: block;
+        padding: 0% ;
+        text-align: center;
+    }
+    .title_detail{
+        padding-top: 15%;
+    }
+    .link_detail{
+        margin-top: 20%;
+        margin-bottom: 17.5%;
+    }
+    .detail_product_us{
+        display: block;
+    }
+    .details_card{
+        width: 360px;
+    }
+    .detail_product_image img{
+        margin-top: 10%;
+        height: 260px;
+    }
+    .detail_product_caption{
+        padding: 0%;
+        margin-top: 15%;
+    }
+    .visit_detail_caption{
+        width: 165px;
+        height: 45px;
+        margin-top: 10%;
+    }
+    .visit_detail_caption_icon{
+        height: 45px;
+        width: 45px;
+    }
+
+    /*  */
+
+    .main_products{
+        padding-top: 20%;
+    }
+    .product_card{
+        margin-top: 7%;
+    }
+    .title_products{
+        padding: 0% 12%;
+        box-sizing: border-box;
+    }
+    .title_products strong{
+        margin-top: 3%;
+    }
+    #span_products{
+        display: block;
+        text-align: center;
+    }
+
+    /*  */
+
+    .main_contact_us .img{
+        background-image: url("images/contact-bg.jpg");
+        background-size: 220% 100%;
+        background-position: right;
+    }
+    .contact_title{
+        padding-top: 15%;
+    }
+    .forms{
+        display: block;
+        padding: 0% 2%;
+        box-sizing: border-box;
+    }
+    .contact_cards{
+        width: 99%;
+        height: 450px;
+        display: flex;
+        align-items: center;
+    }
+    #empty_card{
+        display: none;
+    }
+    .info_contact_us_card{
+        display: block;
+        margin-top: -28%;
+    }
+    .contact_us_card{
+        background-color: white;
+        margin-left: 14%;
+        margin-top: 7%;
+        width: 73%;
+    }
+    form{
+        width: 99.8%;
+    }
+    .inputs{
+        padding-right: 3%;
+        box-sizing: border-box;
+    }
+    footer{
+        font-size: 12px;
+        text-align: center;
+    }
+}
